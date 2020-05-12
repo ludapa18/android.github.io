@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Características</title>
+  <meta charset="UTF-8">
+  <link href="Imagenes/favicon (1).ico" rel="shortcut icon">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <script src="JS/jquery.min.js"></script>
+  <script src="JS/popper.min.js"></script>
+  <script src="JS/bootstrap.min.js"></script>
+  <style>
+  body {
+    position: relative;
+  }
+  ul.nav-pills {
+    top: 20px;
+  }
+  div.col-8 div {
+    height: 500px;
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+    <div class="jumbotron text-center" style="margin-bottom: 0;">
+        <h1 class="display-3">Sistema Operativo Android</h1>
+        <p>Espero que sea de su agrado ya que es la primera vez utilizo Bootstrap</p>
+    </div>
+    <nav class="navbar navbar-expand-md bg-success navbar-dark">
+        <a class="navbar-brand" href="index.html">Android</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">Versiones</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Dispositivos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina4.html">Requerimientos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina5.html">Características</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina6.html">Distribución</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina7.html">Arquitectura</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina8.html">Capas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina9.html">Huawei</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina10.html">Curiosidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Creditos.html">Créditos</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="col-sm-3 col-4" id="myScrollspy">
+            <ul class="nav nav-pills flex-column sticky-top">
+              <li class="nav-item">
+                <a class="nav-link active" href="#section1">Diseño y Navegador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Mensajeria y Conectividad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Google Play y Entorno de desarrollo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section4">Multi-táctil y Soporte de Java</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="col-sm-9 col-8">
+            <div id="section1">    
+                <h2>Diseño y Navegador</h2>
+                <p>La plataforma es adaptable a pantallas de mayor resolución, VGA, biblioteca de gráficos 2D, biblioteca de gráficos 3D basada en las especificaciones de la OpenGL ES 2.0 y diseño de teléfonos tradicionales.</p>
+                <p>El navegador web incluido en Android está basado en el motor de renderizado de código abierto WebKit, emparejado con el motor JavaScript V8 de Google Chrome. El navegador por defecto de Ice Cream Sandwich obtiene una puntuación de 100/100 en el test Acid3.</p>
+                <img src="Imagenes/Diseño.png" class="mx-auto d-block" width="600px" height="300">
+            </div>
+            <div id="section2"> 
+                <h2>Mensajeria y Conectividad</h2>
+                <p>SMS y MMS son formas de mensajería, incluyendo mensajería de texto, además del servicio de Firebase Cloud Messaging (FCM) siendo la nueva versión de Google Cloud Messaging (GCM) bajo la marca Firebase con los nuevos SDK para realizar el desarrollo de mensajería en la nube mucho más sencillo.</p>
+                <p>Android soporta las siguientes tecnologías de conectividad: GSM/EDGE, IDEN, CDMA, EV-DO, UMTS, Bluetooth, Wi-Fi, LTE, HSDPA, HSPA+, NFC y WiMAX, GPRS, UMTS y HSDPA+.</p>
+            </div>        
+            <div id="section3">         
+                <h2>Google Play y Entorno de desarrollo</h2>
+                <p>Google Play es un catálogo de aplicaciones gratuitas o de pago en el que pueden ser descargadas e instaladas en dispositivos Android sin la necesidad de un PC.</p>
+                <p>Incluye un emulador de dispositivos, herramientas para depuración de memoria y análisis del rendimiento del software. Inicialmente el entorno de desarrollo integrado (IDE) utilizado era Eclipse con el plugin de Herramientas de Desarrollo de Android (ADT). Ahora se considera como entorno oficial Android Studio, descargable desde la página oficial de desarrolladores de Android.</p>
+                <img src="Imagenes/Play-Store.jpg" class="mx-auto d-block" width="700px" height="300">
+              </div>
+            <div id="section4">         
+                <h2>Multi-táctil y Soporte de Java</h2>
+                <p>Android tiene soporte nativo para pantallas capacitivas con soporte multitáctil que inicialmente hicieron su aparición en dispositivos como el HTC Hero. La funcionalidad fue originalmente desactivada a nivel de kernel (posiblemente para evitar infringir patentes de otras compañías).​ Más tarde, Google publicó una actualización para el Nexus One y el Motorola Droid que activa el soporte multitáctil de forma nativa.</p>
+                <p>Aunque la mayoría de las aplicaciones están escritas en Java, no hay una máquina virtual Java en la plataforma. El bytecode Java no es ejecutado, sino que primero se compila en un ejecutable Dalvik y se ejecuta en la Máquina Virtual Dalvik, Dalvik es una máquina virtual especializada, diseñada específicamente para Android y optimizada para dipositivos móviles que funcionan con batería y que tienen memoria y procesador limitados. A partir de la versión 5.0, se utiliza el Android Runtime (ART). El soporte para J2ME puede ser agregado mediante aplicaciones de terceros como el J2ME MIDP Runner.</p>
+            </div>      
+          </div>
+        </div>
+    </div>
+
+</body>
+</html>
